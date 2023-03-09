@@ -1,0 +1,46 @@
+.card_body {
+  background: #713ea8;
+  color: #eff0ff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: 200ms ease-in;
+  display: flex;
+  gap: 1rem;
+}
+
+.card_body:hover {
+  box-shadow: 1px 2px 8px #ab7edb
+}
+
+.imageProfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.content {
+  text-align: left;
+}
+
+.media {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+a {
+  height: 24px;
+}
+
+a svg {
+  font-size: 30px;
+  color: #af7ce5;
+}
+
+a svg:hover {
+  color: #8958bd;
+}
+
+h1 {
+  color: #261e64;
+}
